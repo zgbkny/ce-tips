@@ -1,0 +1,17 @@
+{
+    "name": "",
+    "description": "",
+    "version": "0.1",
+    "permissions": [
+        "tabs", "http://*/*", "https://*/*"
+    ],
+    "background": { "scripts": ["background.js"] },
+    "browser_action": {
+        "name": "Click to change the icon's color" ,
+        "default_title": "Set this page's color",
+        "default_icon": "icon1.png",
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "manifest_version": 2
+}
